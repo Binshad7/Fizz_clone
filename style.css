@@ -1,0 +1,78 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: #0a0b27 !important;
+
+}
+.nav-link{
+    transition: color .5s ease-in-out; 
+}
+.nav-link:hover{
+    color: #e53f27;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+.leaf-section{
+    height: 50rem;
+}
+.leaf-section h1{
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.dropdown-menu{
+    background-color: #e53f27;
+}
+.dropdown-item{
+    color: #fff;
+    background-color:#e53f27;
+}
+.dropdown-item:hover{
+    background-color: #e53f27;
+    color: #0a0b27;
+}
+
+
+.img-fan{
+    left: 40%;
+    top: 12rem;
+    transform: translateX(-50%);
+    width: 10rem;
+}
+.text-section{
+    color: #e53f27;
+}
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+/* responsive for samll */
+
+@media (max-width:1050px) {
+    .img-fan{
+        width: 7rem;
+        top: 15rem;
+     }
+     .leaf-section h1{
+        font-size: 8vh;
+     }
+}
+/* @media (max-width:992px) {
+    .right-footer{
+        margin-left: 100px;
+    }
+} */
+
+@media (max-width:550px){
+     .img-fan{
+        width: 7rem;
+        left: 32%;
+     }
+     .leaf-section h1{
+        font-size: 5vh;
+     }
+}
